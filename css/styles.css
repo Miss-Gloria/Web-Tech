@@ -93,3 +93,10 @@ background-color: blueviolet;
     font-size: 7rem;
     color: blueviolet;
 }
+.feature {
+display: flex;
+flex-direction: column;
+row-gap: 50px;
+text-align: center;
+padding-top: 40px;
+}
