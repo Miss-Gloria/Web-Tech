@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>TECH-SPACE</title>
     <link rel="stylesheet" href="./css/styles.css" />
+     <link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    <!-- <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> -->
   </head>
   <body>
     <nav class="nav-bar">
@@ -36,7 +39,7 @@
     <section class="feature">
       <h1>ABOUT GEETECH</h1>
       <p>
-        At <em>GEETECH</em>, we bring ideas to life through cutting-edge
+        At GEETECH, we bring ideas to life through cutting-edge
         technology. Whether you need a stunning website, seamless automation, or
         reliable deployment solutions, our team ensures top-tier results. We
         specialize in web development, automation, and cloud deployment, helping
@@ -46,34 +49,33 @@
         At Geetech, we don’t just build—we design, automate, and deploy. Let’s
         create something amazing together!
       </p>
-      <div>
-          <div class="progress-container">
-            <div class="progress-box">
-              <span class="label">A Typography</span>
-              <div class="progress-bar" data-value="60">
-                <div class="fill" style="width: 60%; background: #f2806b;"></div>
-                <span class="percentage" style="background: #f2806b;">60%</span>
-              </div>
-            </div>
-        
-            <div class="progress-box">
-              <span class="label">✎ Design</span>
-              <div class="progress-bar" data-value="82">
-                <div class="fill" style="width: 82%; background: #ffd700;"></div>
-                <span class="percentage" style="background: #ffd700;">82%</span>
-              </div>
-            </div>
-        
-            <div class="progress-box">
-              <span class="label">
-                <> Development
-              </span>
-              <div class="progress-bar" data-value="86">
-                <div class="fill" style="width: 86%; background: #5c3a86;"></div>
-                <span class="percentage" style="background: #5c3a86;">86%</span>
-              </div>
+      <div class="progress-container">
+        <div class="progress-item">
+          <div class="progress-bar typography">
+            <div class="progress" style="width: 90%;">
+              <span class="tooltip">90%</span>
             </div>
           </div>
+          <span class="label">Frontend Development</span>
+        </div>
+      
+        <div class="progress-item">
+          <div class="progress-bar design">
+            <div class="progress" style="width: 92%;">
+              <span class="tooltip">92%</span>
+            </div>
+          </div>
+          <span class="label">Backend Development</span>
+        </div>
+      
+        <div class="progress-item">
+          <div class="progress-bar development">
+            <div class="progress" style="width: 86%;">
+              <span class="tooltip">86%</span>
+            </div>
+          </div>
+          <span class="label"> Cloud Deployment</span>
+        </div>
       </div>
     </section>
     <section>
@@ -83,14 +85,54 @@
       </div>
       <div class="grid-section">
         <img src="./images/cloud.png" alt="">
+        <img src="./images/css.png" alt="">
         <img src="./images/new-devops.png" alt="">
-        <img src="./images/html.png" alt="">
         <img src="./images/cicd.png" alt="">
       </div>
     </section>
-    <section>
-      <h1>Testimonials</h1>
-
+    <section class="testimonial">
+      <div class="mini-testimonial">
+        <h1>Testimonials</h1>
+        <div><img src="./images/tpp.png" alt=""></div>
+        <div class="testimonial-box">
+          <p>“Awesome theme with great design and awesome support. If you don’t know how to code your own WordPress theme, but
+            you still want a good-looking website for your business, Illdy might be exactly what you need. It is a slick theme
+            with a lot of features to choose from.”</p>
+        </div>
+        <span><i class="fa fa-arrow-down" aria-hidden="true"></i></span>
+        <h2>John Abeka</h2>
+      </div>
     </section>
+    <section class="services">
+      <div class="services-header">
+        <h2>SERVICES</h2>
+        <p>These are the amazing services we offer, you should patronize us.</p>
+      </div>
+    
+      <div class="service">
+        <span>symbol</span>
+        <h1>Web Design</h1>
+        <p>We create visually stunning and user-friendly websites tailored to your needs. Our team ensures fast, secure, and
+        responsive web solutions. From design to development, we bring your ideas to life. Let us help you build a strong online
+        presence</p>
+      </div>
+    
+      <div class="service">
+        <span>symbol</span>
+        <h1>Devs & Operations</h1>
+        <p>We streamline your development and operations for faster, more reliable software delivery. Our DevOps solutions include
+        CI/CD pipelines, automation, and infrastructure management. We help teams collaborate efficiently and deploy with
+        confidence. Accelerate your workflow with our expert DevOps services!</p>
+      </div>
+    
+      <div class="service">
+        <span>symbol</span>
+        <h1>Cloud Deployment</h1>
+        <p>We deploy and manage applications in secure, scalable cloud environments. Our cloud services cover AWS, Azure, and
+        Google Cloud, ensuring high availability and performance. From serverless computing to container orchestration, we
+        optimize your cloud strategy. Take your business to the cloud with ease!.</p>
+      </div>
+    </section>
+
   </body>
 </html>
